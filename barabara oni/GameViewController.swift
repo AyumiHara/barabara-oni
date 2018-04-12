@@ -73,6 +73,8 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func retry() {
+        
+        
        score = 1000
         positionx = [width/2,width/2,width/2]
         if timer.isValid == false {
